@@ -294,15 +294,11 @@ background-color: black;
 @media screen and (max-width: 600px) {
     nav{
         width: 100%;
-        justify-content: space-around;
+        flex-direction:column
         padding: 1.5rem 1rem;
     }
     
-    nav ul{
-        gap: 0.5rem;
-        font-size: 0.50rem;
-
-    }
+   
     .hero-container{
         width: 100%;
         flex-direction: column;
