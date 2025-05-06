@@ -295,7 +295,7 @@ background-color: black;
     body{
         display:flex;
         flex-direction:column;
-        gap:1rem;
+        gap:3rem;
     }
     nav{
         width: 100%;
