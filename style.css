@@ -296,6 +296,7 @@ background-color: black;
         width: 100%;
         flex-direction:column;
         padding: 1.5rem 1rem;
+        height:auto;
     }
     
    
