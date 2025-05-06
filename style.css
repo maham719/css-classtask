@@ -298,7 +298,10 @@ background-color: black;
         padding: 1.5rem 1rem;
         height:auto;
     }
-    
+    nav ul{
+        font-size:0.90rem;
+        justify-content:center;
+        gap:1rem;
    
     .hero-container{
         width: 100%;
@@ -306,6 +309,7 @@ background-color: black;
         justify-content: center;
         align-items: center;
         height: auto;
+        margin-top:3rem;
     }
     .hero-text{
         width: 100%;
