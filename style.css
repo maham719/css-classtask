@@ -302,7 +302,7 @@ background-color: black;
         font-size:0.90rem;
         justify-content:center;
         gap:1rem;
-   
+    }
     .hero-container{
         width: 100%;
         flex-direction: column;
