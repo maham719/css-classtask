@@ -7,10 +7,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-header{
-    min-width: 100%;
-    height: 4rem;
-}
+
 .display{
  display: flex;
  align-items: center;
@@ -32,6 +29,7 @@ header{
     background-color: #D01C28;
     color: white;
     border: none;
+
 }
 
 .btn:hover{
@@ -45,11 +43,18 @@ header{
 .bold{
     font-weight: 600;
 }
+.transition{
+    transition: all 0.3s ease-in-out;
 
+}
+header{
+    min-width: 100%;
+    height: 4rem;
+}
 nav{
     height: inherit;
-    min-width: 75%;
-    width: 75%;
+    min-width: 80%;
+    width: 80%;
     margin: auto;
 }
 nav img{
@@ -58,25 +63,30 @@ nav img{
 nav ul{
     height: 4rem;
 }
+nav ul li{
+    transition: all 0.3s ease-in-out;
+}
 nav ul li:hover{
     color: #D01C28;
     cursor: pointer;
 }
+main{
+    min-width: 100%;
+}
 .hero-container{
-    min-width: 8cqh;
+    min-width: 80%;
     width: 80%;
-    min-height: 600px;
+    min-height: 400px;
     margin: 2rem auto;
-    justify-content: center;
-    gap: 6rem;
 }
 .hero-text{
-    width: 40%;
+    width: 50%;
+    display: flex;
     flex-direction: column;
-    
+    height: 100%;
 }
 .hero-text h1{
- font-size: 6rem;
+ font-size: 4rem;
  font-weight: bold;
 }
 
@@ -92,6 +102,7 @@ nav ul li:hover{
     font-size: 1.5rem;
     font-weight: 600;
     border: 1px solid #D01C28;
+
 }
 .btn-primary:hover{
     color: #D01C28;
@@ -104,7 +115,228 @@ nav ul li:hover{
     font-weight: 600;
     font-size: 1.5rem;
    background-color: transparent;
+   
 }
+.btn-secondary:hover{
+color: white;
+background-color: black;
+}
+
 .shop,.shop+img{
     align-self: flex-start;
+}
+.hero-image{
+    min-width: 10%;
+    width: 10%;
+}
+
+@media screen and (width >1200px){
+   
+.display{
+    display: flex;
+    align-items: center;
+    
+   }
+   .justify-between{
+       justify-content: space-between;
+   }
+   .justify-around{
+       justify-content: space-around;
+   }
+   .gap-1{
+       gap: 1rem;
+   }
+   .gap-2{
+     gap: 2rem;
+   }
+   .btn{
+       background-color: #D01C28;
+       color: white;
+       border: none;
+   
+   }
+   
+   .btn:hover{
+       color: #D01C28;
+       background-color: transparent;
+       border: 1px solid #D01C28;
+   }
+   .p-1{
+       padding: 0.5rem 2rem;
+   }
+   .bold{
+       font-weight: 600;
+   }
+   .transition{
+       transition: all 0.3s ease-in-out;
+   
+   }
+   header{
+       min-width: 100%;
+       height: 4rem;
+   }
+   nav{
+       height: inherit;
+       min-width: 80%;
+       width: 80%;
+       margin: auto;
+   }
+   nav img{
+       width: 5rem;
+   }
+   nav ul{
+       height: 4rem;
+   }
+   nav ul li{
+       transition: all 0.3s ease-in-out;
+   }
+   nav ul li:hover{
+       color: #D01C28;
+       cursor: pointer;
+   }
+   main{
+       min-width: 100%;
+   }
+   .hero-container{
+       min-width: 80%;
+       width: 80%;
+       min-height: 400px;
+       margin: 2rem auto;
+   }
+   .hero-text{
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+   }
+   .hero-text h1{
+    font-size: 4rem;
+    font-weight: bold;
+   }
+   
+   .hero-text h1+p{
+       color: gray;
+       font-weight: 600;
+   }
+   .btn-container{
+       align-self: flex-start;
+   }
+   .btn-primary{
+       padding: 0.5rem 0.9rem;
+       font-size: 1.5rem;
+       font-weight: 600;
+       border: 1px solid #D01C28;
+   
+   }
+   .btn-primary:hover{
+       color: #D01C28;
+       background-color: transparent;
+       border: 1px solid #D01C28;
+   }
+   .btn-secondary{
+       border: 1px solid black ;
+       padding: 0.5rem 0.9rem;
+       font-weight: 600;
+       font-size: 1.5rem;
+      background-color: transparent;
+      
+   }
+   .btn-secondary:hover{
+   color: white;
+   background-color: black;
+   }
+   
+   .shop,.shop+img{
+       align-self: flex-start;
+   }
+   .hero-image{
+       min-width: 10%;
+       width: 10%;
+   }
+   
+}
+
+@media (max-width: 900px) {
+    nav{
+        width: 80%;
+    }
+    .hero-text{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .hero-image{
+        width: 100%;
+        height: 100%;
+    }
+    .hero-text{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    .btn-primary,.btn-secondary{
+        font-size: 1rem;
+    }
+    header{
+        height: 3rem;
+    }
+    .shop,.shop+img{
+        align-self: center;
+    }
+    .btn-container{
+        align-self: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+        justify-content: space-around;
+        padding: 1.5rem 1rem;
+    }
+    
+    nav ul{
+        gap: 0.5rem;
+        font-size: 0.50rem;
+
+    }
+    .hero-container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .hero-text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-image{
+        width: 100%;
+        height: 100%;
+    }
+    .hero-image img{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    .btn-primary,.btn-secondary{
+        font-size: 1rem;
+    }
+    header{
+        height: 3rem;
+    }
+    .shop,.shop+img{
+        align-self: center;
+    }
+    .btn-container{
+        align-self: center;
+    }
 }
