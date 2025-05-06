@@ -104,11 +104,6 @@ main{
     border: 1px solid #D01C28;
 
 }
-.btn-primary:hover{
-    color: #D01C28;
-    background-color: transparent;
-    border: 1px solid #D01C28;
-}
 .btn-secondary{
     border: 1px solid black ;
     padding: 0.5rem 0.9rem;
@@ -230,11 +225,7 @@ background-color: black;
        border: 1px solid #D01C28;
    
    }
-   .btn-primary:hover{
-       color: #D01C28;
-       background-color: transparent;
-       border: 1px solid #D01C28;
-   }
+   
    .btn-secondary{
        border: 1px solid black ;
        padding: 0.5rem 0.9rem;
@@ -262,12 +253,7 @@ background-color: black;
     nav{
         width: 80%;
     }
-    .hero-text{
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        flex-grow: 1;
-    }
+  
     .hero-image{
         width: 100%;
         height: 100%;
