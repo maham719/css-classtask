@@ -202,6 +202,8 @@ background-color: black;
        width: 80%;
        min-height: 400px;
        margin: 2rem auto;
+       padding:0 0.5rem;
+       
    }
    .hero-text{
        width: 50%;
