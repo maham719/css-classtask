@@ -294,7 +294,7 @@ background-color: black;
 @media screen and (max-width: 600px) {
     nav{
         width: 100%;
-        flex-direction:column
+        flex-direction:column;
         padding: 1.5rem 1rem;
     }
     
